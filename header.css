@@ -1,0 +1,41 @@
+header h1{
+    background: linear-gradient(
+        to right,
+        #F7EC09 20%,
+        #3EC70B 30%,
+        #3B44F6 70%,
+        #A149FA 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* -webkit-text-fill-color: transparent; */
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+}
+
+.auto-type{
+    background: linear-gradient(
+        to right,
+        #F7EC09 20%,
+        #3EC70B 30%,
+        #3B44F6 70%,
+        #A149FA 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* -webkit-text-fill-color: transparent; */
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+    font-weight: 500;
+}
+
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
